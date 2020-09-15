@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Instagram clone",
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+          primarySwatch: Colors.blue, scaffoldBackgroundColor: Colors.black),
       home: LoginScreen(),
     );
   }
